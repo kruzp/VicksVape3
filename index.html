@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Vick's Vapor &amp; Liquor Vault</title>
+  <meta name="description" content="Vape, liquor, cold beer and fuel under one roof. Vick's Vapor & Liquor Vault. 21+ with valid ID.">
+  <meta name="theme-color" content="#f3f1ec">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Antonio:wght@700&family=Public+Sans:wght@400;600;700&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!--BODY-->
+<header class="top">
+  <div class="wrap">
+    <a class="mark" href="#top"><b>Vick's</b><span>Vapor &amp; Liquor Vault</span></a>
+    <nav>
+      <a class="hide-sm" href="#shop">Shop</a>
+      <a class="hide-sm" href="#visit">Hours</a>
+      <a href="#visit">Directions</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <div class="hero">
+    <div class="wrap">
+      <div class="sign" aria-label="Vick's: vape, liquor, beer, fuel">
+        <div class="board" id="board">
+          <div class="bulbs" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          <div class="face" id="face" aria-hidden="true"></div>
+        </div>
+      </div>
+      <div class="hero-copy">
+        <span class="status" id="status"><i></i><span id="statusText">Checking hours</span></span>
+        <h1>Vape. Liquor. Fuel. One stop.</h1>
+        <p>Disposables and e-liquid, a full wall of spirits, cold beer in the cooler and gas out front. Grab it all on the way home.</p>
+        <div class="ctas">
+          <a class="btn solid" href="#visit">Hours &amp; directions</a>
+          <a class="btn" id="callBtn" href="#visit">Call the store</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="shop">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>What's inside</h2>
+        <p>Three stores in one building. Stock changes often, so call if you're after something specific.</p>
+      </div>
+      <div class="depts">
+        <article class="dept">
+          <span class="num">01 · Vape</span>
+          <h3>Vapor</h3>
+          <p>Disposables, devices, pods, coils and e-liquid.</p>
+          <ul><li>Disposables <span>Grab &amp; go</span></li><li>Devices &amp; pods <span>Kits + refills</span></li><li>E-liquid &amp; salts <span>By the bottle</span></li><li>Nicotine pouches <span>Ask at the counter</span></li></ul>
+        </article>
+        <article class="dept">
+          <span class="num">02 · The Vault</span>
+          <h3>Liquor</h3>
+          <p>Spirits, beer, wine and seltzers, cold and ready.</p>
+          <ul><li>Spirits <span>Pints to handles</span></li><li>Beer &amp; seltzer <span>Singles to cases</span></li><li>Wine <span>Red, white, bubbly</span></li></ul>
+        </article>
+        <article class="dept">
+          <span class="num">03 · The Store</span>
+          <h3>Fuel &amp; more</h3>
+          <p>Gas out front, plus the snacks and drinks for the road.</p>
+          <ul><li>Fuel <span>At the pump</span></li><li>Snacks &amp; candy <span>Aisles</span></li><li>Energy &amp; soda <span>Cooler</span></li><li>Smoke shop <span>Papers, wraps, glass</span></li></ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="vault">
+    <div class="wrap">
+      <div class="dial" aria-hidden="true"><div class="spin"><i></i><i></i><i></i></div></div>
+      <div>
+        <span class="eyebrow" style="color:#a9c9b9">Why "the Vault"</span>
+        <h2>The good stuff is locked up tight.</h2>
+        <p>The liquor side is stocked like a vault: everyday favorites up front, the bottles worth a special trip behind them. Ask at the counter and we'll point you to it.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="visit" id="visit">
+    <div class="wrap">
+      <div>
+        <span class="eyebrow">Hours</span>
+        <table class="hours" id="hours"><tbody></tbody></table>
+        <p class="note" id="hoursNote"></p>
+      </div>
+      <div>
+        <span class="eyebrow">Find us</span>
+        <div class="addr" id="addr"></div>
+        <div class="ctas"><a class="btn solid" id="dirBtn" href="#" target="_blank" rel="noopener">Get directions</a></div>
+        <div style="margin-top:26px"><span class="eyebrow">Call</span><br><a class="phone" id="phone" href="#"></a></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div class="age"><div class="wrap"><b>21+</b><span>Valid government-issued ID required for tobacco, vapor and alcohol.</span></div></div>
+
+<footer>
+  <div class="wrap">
+    <span><b>Vick's Vapor &amp; Liquor Vault</b></span>
+    <span>Site by Affine Studio</span>
+  </div>
+</footer>
+<!--/BODY-->
+<script src="script.js"></script>
+</body>
+</html>
